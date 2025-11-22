@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Энциклопедия астрономии - Избранные небесные тела</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__content">
+            <h1 class="header__title">Энциклопедия астрономии</h1>
+            <p class="header__subtitle">Коллекция избранных небесных тел нашей Вселенной</p>
+        </div>
+        
+        <div class="header__facts">
+            <h2 class="header__facts-title">Интересные факты</h2>
+            <div class="fact-card">
+                <h3 class="fact-card__title">Скорость света</h3>
+                <p class="fact-card__text">Свет движется со скоростью 299 792 458 метров в секунду. За одну секунду луч света может обогнуть Землю почти 7,5 раз. Это самая высокая скорость во Вселенной.</p>
+            </div>
+            <div class="fact-card">
+                <h3 class="fact-card__title">Время в космосе</h3>
+                <p class="fact-card__text">Время на разных планетах идёт по-разному. Один день на Венере длится 243 земных дня, а год всего 225 дней. Это значит, что день на Венере длиннее её года!</p>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="grid" id="celestialGrid"></div>
+    </div>
+
+    <div class="modal" id="modal">
+        <div class="modal__content" id="modalContent"></div>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
